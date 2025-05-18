@@ -21,7 +21,7 @@ export default function App() {
     }, 600);
   };
 
-  // Executa a sequência (animação + som)
+  // Executa a sequência (animação)
   const playSequence = async () => {
     setIsUserTurn(false);
     for (const color of sequence) {
@@ -59,7 +59,7 @@ export default function App() {
     if (!isUserTurn) return;
     const currentIndex = userSequence.length - 1;
     if (userSequence[currentIndex] !== sequence[currentIndex]) {
-      alert("Sequencia errado, tente novamente.");
+      alert("Sequence wrong, try again.");
       setIsPlaying(false);
       setIsUserTurn(false);
       setSequence([]);
@@ -97,7 +97,7 @@ export default function App() {
         ))}
       </div>
       <button className="start-btn" onClick={startGame}>
-        {isPlaying ? "Novo Jogo" : "Começar"}
+        {isPlaying ? "New Game" : "Start!"}
       </button>
     </div>
   );
