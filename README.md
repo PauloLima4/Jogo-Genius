@@ -5,7 +5,7 @@ Genius Memory Game is a web-based version of the classic **Simon memory game**, 
 ## 📌 Live Demo
 
 Access the game here:  
-👉 [https://projeto-pessoal-react-jogo-genius.vercel.app](https://projeto-pessoal-react-jogo-genius.vercel.app)
+👉 [jogo-genius-wheat.vercel.app](jogo-genius-wheat.vercel.app)
 
 ---
 
