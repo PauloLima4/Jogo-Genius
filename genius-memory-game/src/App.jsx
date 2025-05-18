@@ -89,7 +89,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1>🎮 Jogo Genius</h1>
+      <h1>🎮 Genius Memory Game</h1>
       <Scoreboard score={score} />
       <div className="button-grid">
         {colors.map((color) => (
